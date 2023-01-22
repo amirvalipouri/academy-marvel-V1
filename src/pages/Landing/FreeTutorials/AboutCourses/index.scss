@@ -1,0 +1,75 @@
+.AboutCourses{
+
+    .QuestionFreeTutorial{
+        .AccordionBody{
+            background-image: url('../../../../assets/images/FreeTutorial/linear.png');
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            
+            
+        }
+    }
+     .AboutTeacher{
+        .AboutTeacher-picture{
+            .book1{
+                position: absolute;
+                right : 5px;
+                top: 150px;
+                transform: rotatez(-20deg);
+            }
+            .book2{
+                position: absolute;
+                left : 50px;
+                top: 30px;
+            }
+
+
+            .Pen1{
+                position: absolute;
+                right : 20%;
+                top: 10px;
+                
+            }
+            .Pen2{
+                position: absolute;
+                left : 120px;
+                top: 15px;
+                transform: rotatez(-20deg);
+            }
+
+            .Ruler1{
+                position: absolute;
+                right : 30%;
+                top: 30px;
+                transform: rotatez(-40deg);
+            }
+            .Ruler2{
+                position: absolute;
+                left : 180px;
+                top: 40px;
+            }
+
+            .Color{
+                position: absolute;
+                left : 290px;
+                top: 40px;
+            }
+
+            .Mess1{
+                position: absolute;
+                right : 1%;
+                top: 70px;
+            }
+            .Mess2{
+                position: absolute;
+                right : 2%;
+                top: 60%;
+                transform : rotateZ(-60deg)
+            }
+
+            .aboutTeacherLaptop{
+                width: 100%;
+            }
+        }
+    }
+}

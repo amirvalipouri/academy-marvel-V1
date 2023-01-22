@@ -1,0 +1,22 @@
+.NewProductCard {
+    
+    border-radius: 13px;
+    &:hover {
+      box-shadow: 0 0.5rem 1rem rgb(var(--bs-primary-rgb), 0.15);
+    }
+    .img-box {
+      aspect-ratio: 3/2;
+    }
+    .land-books{
+      background: rgba(46, 81, 219, 0.15);
+      border-radius: 20px;
+      width: 94px;
+      height: 26px;
+      color: #2E51DB;
+  
+    }
+    .categories > *:not(:last-child) {
+      margin-left: 0.5rem;
+    }
+  }
+  

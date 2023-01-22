@@ -1,0 +1,153 @@
+.Home {
+  width: 100%;
+  position: relative;
+  background-color: #212122;
+  // background: linear-gradient(180deg, #212122 0%, rgba(33, 33, 34, 0) 100%), linear-gradient(180deg, #212122 0%, rgba(33, 33, 34, 0) 100%);
+  .main-section {
+
+    background: linear-gradient(180deg, #212122 0%, rgba(33, 33, 34, 0) 100%), linear-gradient(0deg, #212122 0%, rgba(33, 33, 34, 0) 75%), url('../../../assets/images/Home/woman.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    min-height: 700px;
+    width: 100%;
+    @media (min-width: 992px) {
+      position: absolute;
+      top: -100px;
+      right: 0;
+      left: 0;
+    }
+    
+    
+
+  }
+  .Services{
+    position: relative;
+    z-index:5;
+    .services-logo{
+      position: absolute;
+      right: -50px;
+      z-index: 1;
+
+      @media (min-width : 992px){
+        right: -100px;
+      }
+    }
+    .AccordionBody{
+      background: linear-gradient(270.31deg, #2E51DB 0.24%, #39393A 99.73%) , url('../../../assets/icons/Home/Group32.png') ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:50% 50%;
+      min-height: 100px;
+      height: auto;
+      box-shadow: 6px 12px 32px rgba(0, 0, 0, 0.12);
+      border-radius: 10px;
+    }
+  }
+  .land-PopularClass{
+
+      position: relative;
+      top: -100px;
+
+      @media (min-width : 992px){
+        top : -190px
+      }
+
+    
+  }
+  // مباحث تدریس شده
+  .TopicsTaught{
+    background: #2E2E30;
+    border-radius: 20px;
+    min-height: 391px;
+    height: auto;
+    width: 90%;
+
+    @media (min-width : 992px){
+      width: 100%;
+    }
+  }
+  // برترین لیدر ها
+  .Land-BestLeader{
+    .land-Table{
+      width: 100%;
+      overflow-x: auto;
+      background: rgba(55, 55, 57, 0.36);
+     table{
+      width: 768px;
+      height: 416px;
+      overflow-x: auto;
+      tr{
+        width: 100%;
+      }
+      th , td{
+        border-bottom: 1px solid rgba(194, 194, 194, 0.07);
+        padding: 5px 8px;
+      }
+      th{
+        color: #828282;
+        text-align: center;
+        
+      }
+      td{
+        text-align: center;
+        color: white;
+        img{
+          width: 26px;
+          height: 26px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+      }
+     }
+    }
+  }
+  .course-efficiency {
+    .value {
+      width: 125px;
+      div {
+        height: 7px;
+        &:last-child::before {
+          content: "";
+          position: absolute;
+          background-color: var(--bs-primary);
+          border-radius: inherit;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: var(--val);
+        }
+      }
+    }
+  }
+  .Comments .coin-icon {
+    position: absolute;
+    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    &:nth-child(1) {
+      top: -75px;
+      left: calc(50% - 75px);
+      transform: scale(0.85);
+    }
+    &:nth-child(2) {
+      top: calc(50% - 75px);
+      left: -75px;
+      transform: translateY(-25px);
+    }
+    &:nth-child(3) {
+      bottom: -75px;
+      left: calc(50% - 75px);
+      transform: scale(0.9);
+    }
+    &:nth-child(4) {
+      top: calc(50% - 75px);
+      right: -75px;
+      transform: scale(0.7) translateY(25px);
+    }
+  }
+  .swiper-wrapper {
+    align-items: stretch;
+  }
+}

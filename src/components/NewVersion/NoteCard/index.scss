@@ -1,0 +1,17 @@
+.NOTECARD{
+    width: 100%;
+    min-height: 162px;
+    height: auto;
+    .NOTECARD-img{
+        width: 100%;
+        height: 93px;
+        object-fit: cover;
+        border-radius: 6px;
+    }
+
+    .NOTECARD-text{
+        width: 100%;
+        min-height: 93px;
+        height: auto;
+    }
+}

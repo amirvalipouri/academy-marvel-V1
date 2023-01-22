@@ -1,0 +1,22 @@
+.MyCourseCard{
+    .MyCourseCard-img{
+        border-radius: inherit;
+        height: 95px;
+    }
+
+    .MyCourseCard-divider{
+        width: 2px;
+        height: 90px;
+        border-right: 2px solid #E6E6E6;
+      }
+
+    .MyCourseCard-finished{
+        background: rgba(57, 177, 128, 0.12);
+        height: 70px;
+    }
+
+    .MyCourseCard-current{
+        background: rgba(46, 81, 219, 0.06);
+        height: 70px;
+    }
+}

@@ -1,0 +1,54 @@
+.Landing {
+  position: relative;
+  background-color: #212122;
+
+  > header {
+    
+    @media (min-width: 992px) {
+      position: relative;
+      z-index: 5;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0px 4px 40px rgba(30, 56, 157, 0.04);
+    }
+    .user-control {
+      @media (min-width : 992px) {
+        > a.btn {
+          width: 125px;
+        }
+      }
+      
+    }
+  }
+  
+  > main {
+    min-height: calc(100vh - 166px - 82px);
+    width: 100%;
+
+
+  }
+  > footer {
+    min-height: 212px;
+    height: auto;
+    .land-footer-img{
+      width: 107px;
+      height: 107px;
+      border-radius: 5px;
+    }
+    .footer-divider{
+      width: 110px;
+      height: 0px;
+      border: 1px solid rgba(255, 255, 255, 0.39);
+      transform: rotate(-90deg);
+    }
+    @media (min-width: 992px) {
+      position: relative;
+      border-radius: 44px 44px 0px 0px;
+    }
+    a {
+      color: var(--bs-light);
+      &:hover {
+        color: var(--bs-info);
+      }
+    }
+  }
+}
